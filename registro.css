@@ -1,0 +1,29 @@
+.gradient-bg {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #48BB78;
+    box-shadow: 0 0 0 2px #9AE6B4;
+}
+
+.form-input::placeholder {
+    color: #a0aec0;
+}
+
+.form-input::-webkit-input-placeholder {
+    color: #a0aec0;
+}
+
+.form-input::-moz-placeholder {
+    color: #a0aec0;
+}
+
+.form-input:-ms-input-placeholder {
+    color: #a0aec0;
+}
+
+.form-input:focus::placeholder {
+    color: transparent;
+}
