@@ -7,8 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="financimiento.css">
+    <script src="https://kit.fontawesome.com/8fb3b17f71.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
     
 </head>
 
@@ -76,12 +77,146 @@
         </div>
     </nav>
     <main>
-      <div class="mt-10">
-        <div class="row justify-content-centerl">
-            <a href="payment.html" class="btn btn-primary mt-3 bg-gray-800">Ver más vehículos...</a>
+      
+      <!-- Titulo y Beneficios --> 
+      <div class="container">
+        <h1 class="text-center text-3xl font-bold">Financiamiento Temotors</h1>
+      
+        <p>Financiamos tu auto en minutos sin cuota inicial y con plazo bastante amplio</p>
+      
+        <h2 class="text-2xl font-bold">¿Qué Beneficios tiene?</h2>
+      
+        <div class="benefits-container">
+          <div class="benefit">
+            <div class="benefit-number">1</div>
+            <div class="benefit-description">
+              Aprobación en minutos.
+            </div>
           </div>
-          <br>
-    </div>
+      
+          <div class="benefit">
+            <div class="benefit-number">2</div>
+            <div class="benefit-description">
+              Sin cuota inicial o 100% de Financiación.
+            </div>
+          </div>
+      
+          <div class="benefit">
+            <div class="benefit-number">3</div>
+            <div class="benefit-description">
+              Plazos hasta 84 meses.
+            </div>
+          </div>
+      
+          <div class="benefit">
+            <div class="benefit-number">4</div>
+            <div class="benefit-description">
+              Planes a la medida: periodos de gracia hasta 12 meses, cuotas bajas, planes anuales, planes tradicionales y con cuotas extras.
+            </div>
+          </div>
+
+          <div class="benefit">
+            <div class="benefit-number">5</div>
+            <div class="benefit-description">
+              Proceso de asesoría de crédito online.
+            </div>
+          </div>
+      
+          <div class="benefit">
+            <div class="benefit-number">6</div>
+            <div class="benefit-description">
+              Estudios de crédito sin costo.
+            </div>
+          </div>
+        </div>
+      
+        <!-- Formulario -->
+
+        <h3 class="text-3xl font-bold">Solicite su crédito</h3>
+        <div class="section">
+          <div class="section-title">
+            Use este formulario de solicitud de crédito para automóviles, si usted es:
+          </div>
+          <div class="list-container">
+            <ul>
+              <li>Persona natural dependiente</li>
+              <li>Persona natural independiente</li>
+              <li>Empresa</li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-title">
+            Complete los siguientes campos para poder solicitar su credito.
+          </div>
+          <div class="input-group">
+            <label class="label">Nombre *</label>
+            <input class="input" type="text" placeholder="Nombre">
+          </div>
+          <div class="input-group">
+            <label class="label">Apellido *</label>
+            <input class="input" type="text" placeholder="Apellido">
+          </div>
+          <div class="input-group">
+            <label class="label">Ciudad *</label>
+            <input class="input" type="text" placeholder="Ciudad">
+          </div>
+          <div class="input-group">
+            <label class="label">Tipo de Persona *</label>
+            <select class="select">
+              <option value="">Seleccionar</option>
+              <option value="">Natural</option>
+              <option value="">Empresa</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label class="label">Tipo de Documento *</label>
+            <select class="select">
+              <option value="">Seleccionar</option>
+              <option value="">CC</option>
+              <option value="">CE</option>
+              <option value="">NIT</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label class="label">Número de Documento *</label>
+            <input class="input" type="text" placeholder="Número de Documento">
+          </div>
+
+          <div class="input-group">
+            <label class="label">Email *</label>
+            <input class="input" type="email" placeholder="Email">
+          </div>
+          <div class="input-group">
+            <label class="label">Celular*</label>
+            <img class="flag" src="https://flagcdn.com/w20/co.png" alt="Bandera de colombia">
+            <input class="input" type="tel" placeholder="321 1234567">
+          </div>
+        </div>
+
+        <div class="section">
+          <a href="payment.html" class="button">SOLICITAR UN CRÉDITO</a>
+        </div>
+      </div>
+       <!-- Requisitos -->
+        
+<h2 class="text-center text-3xl font-bold">Requisitos</h2>
+<div class="flex justify-around">
+  <div class="card">
+    <i class="fa-solid fa-id-card-clip"></i>
+    <p>Debes tener entre 18 y 75 años de edad</p>
+  </div>
+  <div class="card">
+    <i class="fa-solid fa-money-bill-trend-up"></i>
+    <p>Ingresos mínimos 1,5 SMLV</p>
+  </div>
+  <div class="card">
+    <i class="fa-solid fa-car"></i>
+    <p>Debes contar con seguro de vehículo todo riesgo el cual te financiamos sin intereses</p>
+  </div>
+</div>
     </main>
 
      <!--Logo de WPP
